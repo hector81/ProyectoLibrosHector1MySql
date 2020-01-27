@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <a class="navbar-brand" href="#"><img class="imagenI" src="Imagenes/logo.png" style="width:160px;height:61px;"></a>
+    </div>
+      <ul class="nav navbar-nav">
+        <li><a href="index.php?ctl=inicioAdministradorTienda">Inicio</a></li>
+        <li><a href="index.php?ctl=verMiTienda">Mi tienda</a></li>
+        <li><a href="index.php?ctl=administrarAlmacenAdministradorTienda">Mi almacen</a></li>
+        <li><a href="#">Libros</a></li>
+        <li class="dropdown">
+          <a href="#"  class="dropdown-toggle" data-toggle="dropdown">Categorias<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="index.php?ctl=verCategoriasAdministrador">Categorias</a></li>
+            <li><a href="index.php?ctl=verSubCategoriasAdministrador">Subcategorias</a></li>
+          </ul>
+        </li>
+        <li><a href="index.php?ctl=cerrarSesion">Cerrar Sesion</a></li>
+      </ul>
+      <form class="navbar-form navbar-right" role="search">
+        <div class="form-group input-group">
+          <input type="text" class="form-control" placeholder="Search..">
+          <span class="input-group-btn">
+            <button class="btn btn-default" type="button">
+              <span class="glyphicon glyphicon-search"></span>
+            </button>
+          </span>
+        </div>
+      </form>
+
+  </div>
+</nav>
+
+
+
+
+
+<div class="container">
+  <h3>Basic Navbar Example</h3>
+  <p>A navigation bar is a navigation header that is placed at the top of the page.</p>
+</div>
+
+</body>
+</html>
